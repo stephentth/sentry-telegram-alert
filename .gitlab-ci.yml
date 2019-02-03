@@ -1,0 +1,7 @@
+stages:
+  - test
+
+test_task:
+  stage: test
+  script:
+    - make test
